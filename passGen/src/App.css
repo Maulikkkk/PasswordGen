@@ -1,0 +1,27 @@
+.card {
+  @apply bg-white/10 backdrop-blur-md rounded-xl p-8 shadow-lg w-full max-w-md text-white;
+}
+
+.password-box {
+  @apply flex items-center justify-between bg-zinc-800 rounded-md px-4 py-2 mb-4;
+}
+
+.password-box input {
+  @apply bg-transparent text-white text-lg outline-none w-full;
+}
+
+.password-box button {
+  @apply bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-1 rounded ml-2 transition-all;
+}
+
+.range-slider {
+  @apply w-full mt-2 mb-4;
+}
+
+.option-label {
+  @apply flex items-center gap-2 mb-2;
+}
+
+.generate-btn {
+  @apply bg-green-600 hover:bg-green-700 text-white font-semibold w-full py-2 rounded-md mt-4 transition-all;
+}
